@@ -266,6 +266,8 @@ const MenuTop = ({
           <a href="#" className={style.air__menuTop__mobileToggleButton} onClick={toggleMobileMenu}>
             <span />
           </a>
+
+          {/* Comentário do seu código
           <div className={style.air__menuTop__logo}>
             <div className={style.air__menuTop__logo__letter}>
               <svg
@@ -299,7 +301,9 @@ const MenuTop = ({
             </div>
             <div className={style.air__menuTop__logo__name}>{settings.logo}</div>
             <div className={style.air__menuTop__logo__descr}>{settings.version}</div>
-          </div>
+          </div> */
+          }
+
           <div id="menu-left-container" className={style.air__menuTop__container}>
             <ul className={style.air__menuTop__list}>{items}</ul>
           </div>

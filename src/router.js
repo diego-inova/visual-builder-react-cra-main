@@ -9,6 +9,32 @@ import Layout from 'layouts'
 const routes = [
   // VB:REPLACE-START:ROUTER-CONFIG
   {
+    path: '/regulacaoMedica',
+    Component: lazy(() => import('pages/regulacaoMedica')),
+    exact: true,
+  },
+  {
+    path: '/movimentacaoEquipes',
+    Component: lazy(() => import('pages/movimentacaoEquipes')),
+    exact: true,
+  },
+  {
+    path: '/intranet',
+    Component: lazy(() => import('pages/intranet')),
+    exact: true,
+  },
+  {
+    path: '/historicoEventosEquipes',
+    Component: lazy(() => import('pages/historicoEventosEquipes')),
+    exact: true,
+  },
+  {
+    path: '/situacoes',
+    Component: lazy(() => import('pages/situacoes')),
+    exact: true,
+  },
+  // VB:REPLACE-START:ROUTER-CONFIG
+  {
     path: '/dashboard',
     Component: lazy(() => import('pages/dashboard')),
     exact: true,
